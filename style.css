@@ -8,6 +8,7 @@
     align-content: space-between;
     /* vh-view height */
     font-size: 20px;
+    margin: 0;
 }
 
 .wrapper * {
@@ -60,12 +61,13 @@
     display: inline-flex;
 }
 
-.upper .card__image {
-    flex-grow: 4;
+.upper__title {
+    font-size: 44px;
+    margin: 0;
 }
 
 .upper .upper__body {
-    flex-shrink: 2;
+    flex-shrink: 4;
 }
 
 .box {
@@ -91,13 +93,13 @@
 }
 
 .card__image {
-    width: 100%;
     height: auto;
     padding-bottom: 0;
 }
 
 .card__title {
     padding-bottom: 0;
+    font-size: 30px;
 }
 
 .card__text {
